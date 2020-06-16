@@ -16,18 +16,14 @@
             android:authorities="ru.nehodov.todolist"
             android:name=".stores.StoreContentProvider"/>
 
-        <activity android:name=".MainActivity"
-        android:parentActivityName=".MainActivity">
+        <activity android:name=".HostActivity"
+            android:parentActivityName=".HostActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-        <activity android:name=".HostActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".FindActivity" />
-        <activity android:name=".ProfileActivity" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
